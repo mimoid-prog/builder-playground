@@ -1,0 +1,28 @@
+.root {
+  padding: 50px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px;
+  gap: 20px;
+}
+
+.div1 {
+  background-color: red;
+}
+
+.div2 {
+  background-color: blue;
+}
+
+.div3 {
+  background-color: green;
+}
+
+.children {
+  margin-top: 20px;
+  background: gray;
+  min-height: 50px;
+}

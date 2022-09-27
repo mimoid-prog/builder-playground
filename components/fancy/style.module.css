@@ -1,0 +1,22 @@
+.root {
+  padding: 50px;
+}
+
+.dots {
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+  gap: 3px;
+  margin-bottom: 20px;
+}
+
+.dots div {
+  height: 8px;
+}
+
+.imageBox {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+}

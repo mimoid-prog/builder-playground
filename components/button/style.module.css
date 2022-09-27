@@ -1,0 +1,9 @@
+.root {
+  background-color: #303030;
+  padding: 15px;
+  min-width: 150px;
+  border-radius: 99px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

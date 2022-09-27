@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.bg {
+  background-image: url("./background.png");
+  background-position: 50% 55%;
+  background-size: cover;
+  flex: 1;
+}
+
+.topbar {
+  height: 60px;
+  background-color: black;
+}
+
+.content {
+  position: absolute;
+  right: 340px;
+  top: 46%;
+  transform: translateY(-50%);
+  width: 300px;
+  color: white;
+}
+
+.content h2 {
+  font-size: 32px;
+}
